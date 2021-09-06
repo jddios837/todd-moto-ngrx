@@ -32,6 +32,7 @@ import { PizzasService } from '../../services/pizzas.service';
   `,
 })
 export class ProductsComponent implements OnInit {
+  pizza: Pizza;
   pizzas: Pizza[];
 
   constructor(
