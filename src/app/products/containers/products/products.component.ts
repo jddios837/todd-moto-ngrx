@@ -11,7 +11,7 @@ import { PizzasService } from '../../services/pizzas.service';
   selector: 'products',
   styleUrls: ['products.component.scss'],
   template: `
-    <div class="products">
+    <div class="products list">
       <div class="products__new">
         <a
           class="btn btn__ok"
