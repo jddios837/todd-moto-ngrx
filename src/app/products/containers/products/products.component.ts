@@ -14,7 +14,7 @@ import { PizzasService } from '../../services/pizzas.service';
     <div class="products list">
       <div class="products__new">
         <a
-          class="btn btn__ok"
+          class="btn btn__ok btn-test"
           routerLink="./new">
           New Pizza
         </a>
